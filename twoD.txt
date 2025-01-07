@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>frames Example</title>
+</head>
+<framset rows="33%,33%,34%"
+frameborder="0"framespaceing="0">
+<frame scr="image.html">
+name="image_frame"frameborder="0"scrolling="no">
+<frame scr="paragraph.html"
+name="paragraph-frame"
+frameborder="0"scrolling="no">
+<frame src="hyperlink.html"
+name="hyperlink_frame"
+frameborder="0"scrolling="np">
+</frameset>
+</html>
+image.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image frame</title>
+</head>
+<body>
+<img src="image.jpg"width="100%"height="100%">
+</body>
+</html>
+paragraph.html
+<!DOCTYPE htmL>
+<html>
+</head>
+<title>paragraph frame</title>
+</head>
+<body>
+<p>this is a paragraph of text in the second frame.</p>
+</body>
+</html>
+hyperlink.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>hyperlink fram</title>
+</head>
+<body>
+<p><a href="(link unavalable)">visit(link unavailable)</a></p>
+</body></html>
